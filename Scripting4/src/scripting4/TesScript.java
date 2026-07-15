@@ -25,9 +25,6 @@ public class TesScript {
             AppDependentClass.navigateURL(oBrowser, objData.get("appURL"));
             AppDependentClass.loginToActiTime(oBrowser, objData.get("userName"), objData.get("password"));
             AppDependentClass.logoutFromActiTime(oBrowser);
-
-            System.out.println("New line added");
-            System.out.println("New line added");
         }catch(Exception e){
             System.out.println("Exception in 'TS_LoginAndLogout()' testScript: "+ e);
         }finally{
