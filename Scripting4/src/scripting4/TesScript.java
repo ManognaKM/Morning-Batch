@@ -27,6 +27,7 @@ public class TesScript {
             AppDependentClass.logoutFromActiTime(oBrowser);
 
             System.out.println("New line added");
+            System.out.println("New line added");
         }catch(Exception e){
             System.out.println("Exception in 'TS_LoginAndLogout()' testScript: "+ e);
         }finally{
